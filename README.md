@@ -1,6 +1,6 @@
 # ChatGPT Prompt Engineering for Developers - Azure OpenAI Services Edition
 
-This repository is based on the source code shared in the [DeepLearningAI](https://www.deeplearning.ai) [ChatGPT Prompt Engineer](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+This repository is based on the source code shared in the [DeepLearningAI](https://www.deeplearning.ai) fantastic and free short course of [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/).
 
 Changes have been made to the original source code to accommodate the use of [Azure OpenAI (AOAI) Services](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/) Services as an alternative to OpenAI's own endpoints.
 
@@ -13,4 +13,6 @@ Changes have been made to the original source code to accommodate the use of [Az
 - Copy `.env.sample` to `.env` with the specific configuration matching your Azure Deployment, including Endpoint URLs and Keys
 - Install the required Python modules:
     - `pip install -r requirements.txt`
+- Run the notebooks:
+    - `jupyter notebook` then select the specific tutorial notebook (eg 1l -> 8l)
 - Watch the course videos and follow along with each related notebook
